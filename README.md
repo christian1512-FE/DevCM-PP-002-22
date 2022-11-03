@@ -17,10 +17,13 @@ Responsive design using the sticky position, when scrolling down on the webpage 
 
 ## Screenshots of webpage on Ipad Mini:
 
+As you can see below we are able to view the entire webpage while being on an Ipad mini.
+
 ![alt text](./assets/images/Screen%20Shot%202022-11-03%20at%2012.30.19%20PM.png)
 
-## Screenshots of webpage on desktip on iphone SE:
+## Screenshots of webpage on Iphone SE:
 
+Here we have the smallest screen an Iphone and we are able to access the navigation bar.
 ![alt text](./assets/images/Screen%20Shot%202022-11-03%20at%2012.29.46%20PM.png)
 
 
