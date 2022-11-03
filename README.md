@@ -6,7 +6,7 @@ The purpose of this challenge is to create a web developer portfolio webpage. Th
 
 ## Usage
 
-**Screenshot of webpage** 
+**Screenshot of website** 
 
 Using responsive design below are some examples what the webpage looks like on different divice. 
 
