@@ -217,6 +217,7 @@ h1 {
     /* FLEX WRAP WRAPS FLEX ITEMS TO THE NEXT LINE IF THE FLEX ITEMS ARE WIDER THAN THE CONTAINER */
     /* flex-wrap: wrap; TESTING WRAP TO WORK */
     flex-wrap: wrap;
+    
 
     /* GOOOOOO BACKKK TO TOP  */
 }
@@ -230,6 +231,7 @@ h1 {
     flex-basis: 0; */
     /* LINK THAT CONTAINS AN IMAGE WAS ADDING SOME SPACE BELOW (THIS IS A TRICK) */
     font-size: 0;
+
 }
 
 .portfolio-item img {
@@ -240,6 +242,7 @@ h1 {
     margin-top: 3%;
     margin-bottom: 3%; 
     border: 4px solid var(--white);   
+    
 
     /* adsfadsfadsfasdfasdfadsfasdfasdfasdfasdfsadfNEWWWWWWWWW */
     /* Portfolio image border */
