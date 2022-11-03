@@ -5,7 +5,7 @@ Module 2 Challenge
 The purpose of this challenge is to create a web developer portfolio webpage. This was the first challange assigment that we had to create from scratch with zero code provided. The main focus on this challenge was applying advanced CSS including Media Query, flex box, responsive design, pheudo elements in order to create the wepage more accessiable.
 
 ## Usage
-sticky
+
 Using responsive design below are some examples what the webpage looks like on different divice. 
 
 Display on Desktop
