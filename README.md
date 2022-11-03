@@ -5,12 +5,15 @@ Module 2 Challenge
 The purpose of this challenge is to create a web developer portfolio webpage. This was the first challange assigment that we had to create from scratch with zero code provided. The main focus on this challenge was applying advanced CSS including Media Query, flex box, responsive design, pheudo elements in order to create the wepage more accessiable.
 
 ## Usage
-![alt] text](./assets/images/Screen Shot 2022-11-03 at 12.32.00 PM.png)
 
-![alt] text](./assets/images/Screen Shot 2022-11-03 at 12.30.19 PM.png)
+Using responsive design below are some examples what the webpage looks like on different divice. 
 
-![alt] text](./assets/images/Screen Shot 2022-11-03 at 12.29.46 PM.png)
 
+![alt text](./assets/images/Screen%20Shot%202022-11-03%20at%2012.32.00%20PM.png)
+
+![alt text](./assets/images/Screen%20Shot%202022-11-03%20at%2012.30.19%20PM.png)
+
+![alt text](./assets/images/Screen%20Shot%202022-11-03%20at%2012.29.46%20PM.png)
 
 ## License
 
