@@ -133,6 +133,8 @@ h1 {
 @media screen and (min-width: 1024px) {
     .profile-container {
         width: 30%;
+        width: 50%;
+
     }
 
     .info {
@@ -235,10 +237,13 @@ h1 {
     width: 100%;
     /* SETTING A MIN WIDTH SO IT CANT GET SMALLER THAN 200px */
     min-width: 200px;
+    margin-top: 3%;
+    margin-bottom: 3%; 
+    border: 4px solid var(--white);   
 
     /* adsfadsfadsfasdfasdfadsfasdfasdfasdfasdfsadfNEWWWWWWWWW */
     /* Portfolio image border */
-    border: 4px solid var(--white);   
+    /* border: 4px solid var(--white);    */
 
 /* ADDS MARGIN TO THE TOP AND BOTTOM OF THE ABOUT ME PART & images*/
     /* margin-top: 3%;
