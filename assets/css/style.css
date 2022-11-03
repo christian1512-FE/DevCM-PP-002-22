@@ -1,0 +1,275 @@
+/* CSS VARIABLES */
+:root {
+    --white: #fff;
+    --pink: #FFA69E;
+    --tan: #FAF3DD;
+    --green: #B8F2E6;
+    --blue: #AED9E0;
+    --gray: #5E6472;
+}
+
+/* RESETS ALL ELEMENTS  */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* COMMA SEPARATING ELEMENTS APPLY THE SAME STYLE TO THEM */
+h1, 
+h2 {
+    font-family: 'Bebas Neue', sans-serif; 
+
+}
+
+h1 {
+    font-size: 32px;
+}
+
+/* DEVELOP MOBILE FIRST THEN OVERRIDE FOR LARGER BREAKPOINTS
+    IF IT DOESNT HAVE A MEDIA QUERY IT WILL APPLY TO ALL BREAKPOINTS
+    SETTING BREAKPOINTS LIKE BELOW WILL UPDATE THE STYLE FOR THAT BREAKPOINT 
+    IF NOT IT WILL STAY THE SAME
+*/
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    h1 {
+        font-size: 60px;
+    }
+}
+
+.header {
+    /* ALIGNS VERTICAL CENTER ON Y AXIS */
+    align-items: center;
+    background-color: var(--gray);
+    color: var(--white);
+    display: flex;
+    /* ALIGNS HORIZONTAL CENTER ON X AXIS */
+    justify-content: center;
+    height: 100px;
+}
+
+@media screen and (min-width: 768px) {
+    .header {
+        height: 200px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .header {
+        height: 500px;
+    }
+}
+
+.header-content {
+    /* CENTERS HEADER TEXT */
+    text-align: center;
+}
+
+.navigation {
+    background-color: var(--gray);
+    font-size: 24px;
+}
+
+.navigation .nav-links {
+    display: flex;
+    /* WRAPPING FLEX ITEMS HERE FOR MOBILE SO THE LINKS STACK */
+    flex-wrap: wrap;
+    /* REMOVES THE BULLET POINTS FROM THE UNORDERED LIST */
+    list-style-type: none;
+}
+
+@media screen and (min-width: 768px) {
+    .navigation .nav-links {
+        /* REMOVING THE FLEX WRAP SO THE LINKS ARE ON ONE LINE */
+        flex-wrap: nowrap;
+    }
+}
+
+.nav-item-link {
+    /* ALIGNING TEXT TO CENTER OF CONTAINER */
+    text-align: center;
+    width: 100%;
+}
+
+.nav-item-link a {
+    color: var(--tan);
+    /* DISPLAY INLINE BLOCK ALLOWS US TO APPLY PADDING TO THE LINKS BECAUSE THEY ARE INLINE ELEMENTS BY DEFAULT */
+    display: inline-block;
+    font-family: 'Barlow Condensed', sans-serif;
+    /* HAVING PADDING ON THE LINK ALLOWS FOR A BIGGER HIT AREA FOR USERS TO CLICK THE LINK */
+    padding: 4px;
+    text-decoration: none;
+}
+
+.nav-item-link a:hover {
+    color: var(--pink);
+    /* NEED TO IDENTIFY LINKS AND THINGS LIKE ERRORS WITH A VISUAL CHANGE THAT IS NOT ONLY COLOR FOR PEOPLE WHO ARE COLOR BLIND */
+    text-decoration: underline;
+}
+
+.main-content {
+    /* ADDS MARGIN AROUND THE MAIN CONTENT (THE WHITE COLOR BEHIND) */
+    margin: 20px;
+}
+
+@media screen and (min-width: 1024px) {
+    .main-content {
+        /* MOVE THE ASIDE (PROFILE PIC SECTION) AND MAIN (ABOUT ME, WORK, CONTACT) NEXT TO EACH OTHER IN DESKTOP */
+        display: flex;
+        /* PUT MARGIN TOP ON THE MAIN AND AUTO AROUND. AUTO CENTERS THE CONTAINER HORIZONTALLY ON THE PAGE */
+        margin: 20px auto;
+        max-width: 1200px;
+        padding: 0 20px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .profile-container {
+        width: 30%;
+    }
+
+    .info {
+        width: 70%;
+    }
+}
+
+.profile {
+    background-color: var(--pink);
+    border-radius: 20px;
+    padding: 18px;
+    text-align: center;
+    width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+    .profile {
+        /* STICKS PROFILE SECTION WHEN YOU SCROLL DOWN THE PAGE */
+        position: sticky;
+        /* POSITIONS IT 20PX FROM THE TOP WHEN STICKY TO MAKE IT STILL LOOK GOOD */
+        top: 20px;
+    }
+}
+
+.profile .about-me {
+    border-radius: 50%;
+    border: 4px solid var(--white);
+}
+
+.content-area {
+    /* ADDS ROUNDED CORNERS AROUND CONTAINER */
+    border-radius: 20px;
+    /* ADDS MARGIN TO THE CONTAINER TO THE TOP AND BOTTOM */
+    margin: 20px 0;
+    /* IF CONTENT IS TALLER OR WIDER THAN THE PARENT CONTAINER OVERFLOW HIDDEN WILL CROP THE CONTENT AND NOT SHOW A SCROLL BAR */
+    overflow: hidden;
+    padding: 18px;
+}
+
+@media screen and (min-width: 1024px) {
+    .content-area {
+        /* min-height: 1000px; */
+        /* ADDING MARGIN TO THE LEFT AND BOTTOM OF THE CONTENT AREA IN DESKTOP */
+        margin: 0 0 20px 20px; 
+    }
+
+    .content-area:last-child {
+        /* REMOVES THE MARGIN BOTTOM FROM THE LAST CONTENT-AREA CONTAINER */
+        margin-bottom: 0;
+    }
+}
+
+#about-me {
+    background-color: var(--blue);
+}
+
+#my-work {
+    background-color: var(--green);
+}
+
+#contact-me{
+    background-color: var(--tan);
+}
+
+.portfolio-container {
+    /* display: flex; */
+    /* GAP PUTS A SPACE BETWEEN THE FLEXT ITEMS */
+    /* gap: 8px; */
+    /* FLEX WRAP WRAPS FLEX ITEMS TO THE NEXT LINE IF THE FLEX ITEMS ARE WIDER THAN THE CONTAINER */
+    flex-wrap: wrap;
+}
+
+.portfolio-item {
+    flex-wrap: wrap
+    /* display: flex; */
+    /* flex: 1 1 0; */
+    /* flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 0; */
+    /* LINK THAT CONTAINS AN IMAGE WAS ADDING SOME SPACE BELOW (THIS IS A TRICK) */
+    /* font-size: 0; */
+}
+
+.portfolio-item img {
+    /* SETTING IMAGE TO 100% OF THE CONTAINER */
+    width: 75%;
+    /* SETTING A MIN WIDTH SO IT CANT GET SMALLER THAN 200px */
+    min-width: 150px;
+
+    /* adsfadsfadsfasdfasdfadsfasdfasdfasdfasdfsadfNEWWWWWWWWW */
+    /* Portfolio image border */
+    border: 4px solid var(--white);
+  
+}
+ 
+/* IMAGE HOVER */
+/* .portfolio-item {
+    opacity: 1;
+    filter: alpha(opacity=50);
+   
+}
+
+.portfolio-item:hover {
+    opacity: 0.3;
+    filter: alpha(opacity=10);
+
+}  */
+
+
+/* .about-me {
+    opacity: 1;
+    filter: alpha(opacity=50);
+   
+}
+
+.about-me:hover {
+    opacity: 0.3;
+    filter: alpha(opacity=10);
+
+}  */
+
+
+
+ .portfolio-item {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+
+.portfolio-item:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+}
+
+
+
+footer {
+    background-color: var(--gray);
+    color: var(--white);
+    padding: 20px;
+}
