@@ -215,19 +215,20 @@ h1 {
     background-color: var(--tan);
 }
 
-.portfolio-container {
+ /* .portfolio-container {
 
     flex-wrap: wrap;
-    
 
 }
 
 .portfolio-item {
-    flex-wrap: wrap
+    flex-wrap: wrap 
 
-}
+}  */
+
 /* SETTING IMAGE TO 100% OF THE CONTAINER */
 /* SETTING A MIN WIDTH SO IT CANT GET SMALLER THAN 200px */
+
 .portfolio-item img {
     width: 100%;
     min-width: 150px;
