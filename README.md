@@ -8,9 +8,10 @@ The purpose of this challenge is to create a web developer portfolio webpage. Th
 
 **Screenshot of webpage** 
 
-```Using responsive design below are some examples what the webpage looks like on different divice. 
+Using responsive design below are some examples what the webpage looks like on different divice. 
 
-Display on Desktop
+```Display on Desktop```
+
 ![alt text](./assets/images/Screen%20Shot%202022-11-03%20at%2012.32.00%20PM.png)
 
 Responsive design using the sticky position, when scrolling down on the webpage the left side profile image follows you. Using the hover selector on the images under my work the color of the images change to color when you hover over them. 
@@ -22,7 +23,7 @@ Display on Ipad Mini
 
 Display on iphone SE
 ![alt text](./assets/images/Screen%20Shot%202022-11-03%20at%2012.29.46%20PM.png)
-```
+
 
 ## License
 
