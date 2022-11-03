@@ -11,6 +11,10 @@ Using responsive design below are some examples what the webpage looks like on d
 Display on Desktop
 ![alt text](./assets/images/Screen%20Shot%202022-11-03%20at%2012.32.00%20PM.png)
 
+Responsive design using the sticky position, when scrolling down on the webpage the left side profile image follows you. Using the hover selector on the images under my work the color of the images change to color when you hover over them. 
+
+![alt text](./assets/images/Screen%20Shot%202022-11-03%20at%2012.55.43%20PM.png)
+
 Display on Ipad Mini
 ![alt text](./assets/images/Screen%20Shot%202022-11-03%20at%2012.30.19%20PM.png)
 
