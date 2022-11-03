@@ -1,2 +1,19 @@
 # DevCM-PP-002-22
-Module 2 challenge
+Module 2 Challenge  
+
+## Description
+The purpose of this challenge is to create a web developer portfolio webpage. This was the first challange assigment that we had to create from scratch with zero code provided. The main focus on this challenge was applying advanced CSS including Media Query, flex box, responsive design, pheudo elements in order to create the wepage more accessiable.
+
+## Usage
+
+## License
+
+The MIT License (MIT)
+
+Copyright (c) 2022 Christian Mendez
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
