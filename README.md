@@ -8,11 +8,13 @@ The purpose of this challenge is to create a web developer portfolio webpage. Th
 
 Using responsive design below are some examples what the webpage looks like on different divice. 
 
-
+Display on Desktop
 ![alt text](./assets/images/Screen%20Shot%202022-11-03%20at%2012.32.00%20PM.png)
 
+Display on Ipad Mini
 ![alt text](./assets/images/Screen%20Shot%202022-11-03%20at%2012.30.19%20PM.png)
 
+Display on iphone SE
 ![alt text](./assets/images/Screen%20Shot%202022-11-03%20at%2012.29.46%20PM.png)
 
 ## License
