@@ -237,8 +237,21 @@ h1 {
     border: 4px solid var(--white);   
   
 }
+
+/* MY ABOUT ME IMAGE HOVER CHANGE FROM BLACK & WHITE TO COLOR*/
+
+.about-me {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+
+.about-me:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+}
  
-/* IMAGE HOVER CHANGE FROM BLACK & WHITE TO COLOR*/
+/* MY WORK IMAGE HOVER CHANGE FROM BLACK & WHITE TO COLOR*/
 
  .portfolio-item {
     filter: grayscale(100%);
@@ -252,17 +265,7 @@ h1 {
 }
 
 
-.about-me {
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-}
-
-
-.about-me:hover {
-    filter: none;
-    -webkit-filter: grayscale(0);
-}
-
+/* FOOTER BACKGROUND COLOR, TEXT USING VARIABLE*/
 footer {
     background-color: var(--gray);
     color: var(--white);
