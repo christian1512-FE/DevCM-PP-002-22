@@ -1,5 +1,6 @@
 /* CSS VARIABLES */
 :root {
+
     --white: #fff;
     --pink: #FFA69E;
     --tan: #FAF3DD;
@@ -14,6 +15,7 @@
     margin: 0;
     padding: 0;
 }
+
 
 /* COMMA SEPARATING ELEMENTS APPLY THE SAME STYLE TO THEM */
 h1, 
@@ -229,40 +231,49 @@ h1 {
 /* SETTING IMAGE TO 100% OF THE CONTAINER */
 /* SETTING A MIN WIDTH SO IT CANT GET SMALLER THAN 200px */
 
-.portfolio-item img {
+/* .portfolio-item img {
     width: 100%;
     min-width: 150px;
     margin-top: 3%;
     margin-bottom: 3%; 
     border: 4px solid var(--white);   
-  
+} */
+
+.portfolio-item img {
+display: flex;
+height: 40%;
+width: 40%;
+margin: 10px;
+padding: 5px; 
+background-color: #000000d0;
+
 }
 
 /* MY ABOUT ME IMAGE HOVER CHANGE FROM BLACK & WHITE TO COLOR*/
 
-.about-me {
+/* .about-me {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
-}
+} */
 
 
-.about-me:hover {
+/* .about-me:hover {
     filter: none;
     -webkit-filter: grayscale(0);
-}
+} */
  
 /* MY WORK IMAGE HOVER CHANGE FROM BLACK & WHITE TO COLOR*/
 
- .portfolio-item {
+ /* .portfolio-item {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
-}
+} */
 
 
-.portfolio-item:hover {
+/* .portfolio-item:hover {
     filter: none;
     -webkit-filter: grayscale(0);
-}
+} */
 
 
 /* FOOTER BACKGROUND COLOR, TEXT USING VARIABLE*/
